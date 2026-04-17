@@ -1,0 +1,2 @@
+class Celular:
+    pass
