@@ -47,4 +47,12 @@ class Celular:
         print("Informacion del celular:")
         print(f"Nombre: {self.__nombre}, Marca: {self.__marca}, Modelo: {self.__modelo}")
         print(f"Almacenamiento: {self.__almacenamiento}, Memoria: {self.__memoria}, Bateria: {self.__bateria}")
-    
+
+    def jugar(self,horas):
+        consumo = horas * 10
+        if self.__bateria >= consumo:
+            self.__bateria -= consumo
+            print(f"Jugaste {horas} horas, Bateria restante: {self.__bateria}%")
+        else:
+            self.__bateria = 0
+            print("Se agoto la bateria, Apagando celular...")
