@@ -56,3 +56,10 @@ class Celular:
         else:
             self.__bateria = 0
             print("Se agoto la bateria, Apagando celular...")
+    
+    def instalar_app(self,peso_gb):
+        if peso_gb <= self.__almacenamiento:
+            self.__almacenamiento -= peso_gb
+            print("Se instalo correctamente")
+        else:
+            print("No se instalo, no tienes suficiente espacio")
