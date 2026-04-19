@@ -42,3 +42,9 @@ class Celular:
 
     def set_bateria(self,nueva_bateria):
         self.__bateria = nueva_bateria
+
+    def info(self):
+        print("Informacion del celular:")
+        print(f"Nombre: {self.__nombre}, Marca: {self.__marca}, Modelo: {self.__modelo}")
+        print(f"Almacenamiento: {self.__almacenamiento}, Memoria: {self.__memoria}, Bateria: {self.__bateria}")
+    
