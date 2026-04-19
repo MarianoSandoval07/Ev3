@@ -63,3 +63,9 @@ class Celular:
             print("Se instalo correctamente")
         else:
             print("No se instalo, no tienes suficiente espacio")
+
+celular1 = Celular("Carlos","Samsung","S23 Ultra",256,8,100)
+
+celular1.jugar(2)
+celular1.instalar_app(8)
+celular1.info()
