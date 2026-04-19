@@ -24,3 +24,21 @@ class Celular:
     
     def get_bateria(self):
         return self.__bateria
+    
+    def set_nombre(self,nuevo_nombre):
+        self.__nombre = nuevo_nombre
+
+    def set_marca(self,nueva_marca):
+        self.__marca = nueva_marca
+
+    def set_modelo(self,nuevo_modelo):
+        self.__modelo = nuevo_modelo
+    
+    def set_almacenamiento(self,nuevo_almacenamiento):
+        self.__almacenamiento = nuevo_almacenamiento
+    
+    def set_memoria(self,nueva_memoria):
+        self.__memoria = nueva_memoria
+
+    def set_bateria(self,nueva_bateria):
+        self.__bateria = nueva_bateria
